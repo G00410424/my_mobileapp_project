@@ -1,0 +1,60 @@
+<!-- food page -->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Feijoada</ion-title>
+    <ion-back-button slot="start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Feijoada</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Feijoada_%C3%A0_brasileira_1.jpg"></ion-img>
+  <ion-text>
+    <h3>Brazilian Feijoada is a black bean and pork stew that Brazilians often serve topped with farofa, toasted cassava flour. Many call this comfort food the national dish of Brazil. </h3><br>
+    <h1><ion-text color="tertiary">History of Feijoada</ion-text></h1><br>
+    <h3>Some historians say that African slaves created feijoada (pronounced fay-jwa-da). After feasts given by the owners of the plantations, the slaves would pick up the leftovers and mix them with black beans, making a new stew.<br><br>
+    Other historians say that a similar dish was consumed in the north of Portugal, where its main ingredients were white or red beans and pork.
+      Whichever the story is, feijoada is a symbol of the fusion within Brazilian gastronomic culture. It is a Brazilian icon.</h3><br><br>
+      <h1><ion-text color="tertiary">Feijoada Recipe</ion-text></h1><br>
+      <h3>Prep Time 15 minutes<br>
+        Cook Time 2 hours 30 minutes<br>
+        Total Time 2 hours 45 minutes</h3><br>
+        <h1><ion-text color="tertiary">Ingredients</ion-text></h1><br>
+        <h3>1 pound dry black beans (soaked overnight)*<br><br>
+        1 tablespoon olive oil<br><br>
+        4 ounces slab bacon (rind removed), diced<br><br>
+        1 pound pork ribs, cut into individual ribs<br><br>
+        2 Mexican chorizo sausages (roughly 11 oz each), sliced**<br><br>
+        1 smoked sausage (roughly 7 oz), such as linguica or kielbasa, sliced<br><br>
+        1 large onion, chopped<br><br>
+        4 cloves garlic, minced<br><br>
+        3 tomatoes, diced<br><br>
+        1 teaspoon salt<br><br>
+        1 teaspoon ground black pepper<br><br>
+        3 bay leaves<br><br>
+        water<br><br>
+        white rice (for serving)<br><br>
+        farofa (for serving)<br><br></h3>
+        <h1><ion-text color="tertiary">Instructions</ion-text></h1><br>
+        <h3>1. In a large bowl with water, soak beans overnight.<br><br>
+            2. When you are ready to make your stew, in a large heavy-bottom soup pot, over medium heat, add the oil and bacon. Cook until crisp and transfer to a plate.<br><br>
+            3. Use the same saucepan to brown ribs and sausages in batches. (You will want to be sure to cook the sliced Mexican chorizo on its own, as it can be very greasy. Drain the grease before continuing.) Set each aside as cooked.<br><br>
+            4.If needed, add more oil to the pan. On medium-high, sauté onion, and garlic until soft and translucent, about 5 minutes. Add tomatoes and cook for another 3 minutes.<br><br>
+            5. Drain and rinse the soaked beans. Add them to the pot along with the ribs, bacon, sausages, salt, pepper, and bay leaf. Cover with water (about 8 cups).<br><br>
+            6. Bring the mixture to a boil and reduce the heat to low. Cover and let it cook for 2 to 2 and a half hours, or until the beans are soft.<br><br>
+            7. If the stew is too liquidy, uncover the saucepan and continue to cook for another 20 minutes to allow some of the liquid to evaporate.<br><br>
+            8. Serve with white rice and sprinkle some farofa on top.<br><br>
+          </h3>
+    </ion-text>
+    <!-- All links to connect the 4 food pages together. -->
+    <li [routerLink]="['/caipirinha']"><ion-button>Caipirinha</ion-button></li>
+    <li [routerLink]="['/churrasco']"><ion-button>Churrasco</ion-button></li>
+    <li [routerLink]="['/pastel']"><ion-button>Pastel</ion-button></li>
+    <li [routerLink]="['/mood']"><ion-button>Favourite Food</ion-button></li>
+</ion-content>
+
+

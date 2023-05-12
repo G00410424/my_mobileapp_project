@@ -1,0 +1,44 @@
+<!-- food page -->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Caipirinha</ion-title>
+    <ion-back-button slot="start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Caipirinha</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Caipirinha_with_lime.jpg"></ion-img>
+  <ion-text>
+    <h3>Caipirinha is Brazil's national cocktail, made with cachaça (sugarcane hard liquor), sugar, and lime. The drink is prepared by mixing the fruit and the sugar together, then adding the liquor. This can be made in a single large glass to be shared among people, or in a larger jar, from which it is served in individual glasses.</h3><br>
+    <h1><ion-text color="tertiary">History of Caipirinha</ion-text></h1><br>
+    <h3>Although the origin of the drink is unknown, it is a consensus in the academic community that Caipirinha was invented in the interior of São Paulo, Brazil in 1918. Some accounts say it came about around 1918 in the region of 
+    Alentejo in Portugal, with a popular recipe made with lemon, garlic, and honey, indicated for patients with the Spanish flu. Another account is that Caipirinha is based on Poncha, an alcoholic drink from Madeira, Portugal. The main 
+    ingredient is aguardente de cana, which is made from sugar cane. Sugar cane production was switched from Madeira to Brazil by the Portuguese as they needed more land to plant it on. Before this people in Madeira had already created aguardente
+    de cana, which was the ancestor to cachaça.<br><br>
+    Today, it is still used as a tonic for the common cold. Commonly, practitioners add some distilled spirits to home remedies to expedite the therapeutic effect. Aguardente was commonly used. "Until one day, someone decided to remove the garlic and honey. 
+    Then added a few tablespoons of sugar to reduce the acidity of the lime. The ice came next, to ward off the heat," explains Carlos Lima, executive director of IBRAC (Brazilian Institute of Cachaça).<br><br>
+    According to historians, the caipirinha was invented by landowning farmers in the region of Piracicaba, the interior of the State of São Paulo during the 19th century as a local drink for 'high standard' events and parties (parties at Barão de Serra Negra palace), 
+    a reflection of the strong sugarcane culture in the region. Original recipe use a kind of Lemon called "galeguinho", a small yellow/green lemon very common in São Paulo countryside houses backyards. Currently it is made with a bigger green lemon called Tahiti lemon, 
+    a specie of lemon more spread around the country markets.</h3><br><br>
+      <h1><ion-text color="tertiary">Caipirinha Recipe</ion-text></h1><br>
+        <h1><ion-text color="tertiary">Ingredients</ion-text></h1><br>
+        <h3>2 limes, chopped into wedges, plus extra lime wedges to serve (optional)<br><br>
+          5 tbsp golden caster sugar<br><br>
+          200ml cachaça<br><br>
+          Ice<br><br></h3>
+        <h1><ion-text color="tertiary">Instructions</ion-text></h1><br>
+        <h3>1. Put the lime wedges in a large jug with the sugar, then use a muddler or the end of a rolling pin to break them down. Release as much juice from the wedges as possible, and let it mix with the sugar to create a syrup – you can also do this with a large 
+          pestle and mortar. Discard the lime peel.<br><br>
+            2. Divide the syrup and cachaça between four glasses, then top with the crushed ice. Serve garnished with lime wedges, if you like..<br><br></h3>
+    </ion-text>
+    <!-- All links to connect the 4 food pages together. -->
+    <li [routerLink]="['/churrasco']"><ion-button>Churrasco</ion-button></li>
+    <li [routerLink]="['/feijoada']"><ion-button>Feijoada</ion-button></li>
+    <li [routerLink]="['/pastel']"><ion-button>Pastel</ion-button></li>
+    <li [routerLink]="['/mood']"><ion-button>Favourite Food</ion-button></li>
+</ion-content>

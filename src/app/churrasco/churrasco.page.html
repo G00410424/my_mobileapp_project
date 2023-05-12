@@ -1,0 +1,71 @@
+<!-- food page -->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Churrasco</ion-title>
+    <ion-back-button slot="start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Churrasco</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Churrasco_carioca.jpg"></ion-img>
+  <ion-text>
+    <h3>Churrasco is the national barbecue of Brazil, where spit-roasting has been raised to the level of art. Think whole meal cooked on a rotisserie and don’t think of a barbecue season without it. . </h3><br>
+    <h1><ion-text color="tertiary">History of Churrasco</ion-text></h1><br>
+    <h3>The beginning of Brazilian barbeque can be traced back to the 1700s during Brazil’s colonization by European settlers.1 The subsequent rise in popularity of the churrasco technique is credited to gaúchos in the 
+      cattle ranching lands of the Rio Grande do Sul in the 1800s.2 After long days of herding cattle, the gaúchos would gather their communities to enjoy a large meal of barbequed meats they called churrasco.</h3><br><br>
+      <h1><ion-text color="tertiary">Churrasco Recipes</ion-text></h1><br>
+      <h3>Prep Time 30 minutes<br>
+        Cook Time 2 hours 30 minutes<br>
+        Total Time 3 hours</h3><br>
+        <h1><ion-text color="tertiary">Ingredients</ion-text></h1><br>
+        <h2>PORK SPARERIBS</h2><br><br>
+        <h3>80 mL (⅓ cup) orange juice (about 1 orange)<br><br>
+          2 cloves garlic, crushed<br><br>
+          2 mL (½ tsp.) salt<br><br>
+          750 g (1⅔ lb.) pork spareribs</h3><br><br>
+          <h2>DRY MARINADE</h2><br><br>
+          <h3>5 mL (1 tsp.) smoked paprika<br><br>
+            15 mL (1 tbsp.) brown sugar<br><br>
+            15 mL (1 tbsp.) orange zest (about 1 orange)<br><br>
+            2 mL (½ tsp.) salt<br><br>
+            10 mL (2 tsp.) cumin seed<br><br>
+            2 mL (½ tsp.) pepper<br><br>
+            2 mL (½ tsp.) cayenne pepper<br><br>
+          </h3>
+          <h2>FLATTENED CHICKEN</h2><br><br>
+          <h3>½ flattened chicken<br><br>
+            10 mL (2 tsp.) dried oregano<br><br>
+            5 mL (1 tsp.) coriander seed<br><br>
+            5 mL (1 tsp.) smoked paprika<br><br>
+            1 mL (¼ tsp.) hot pepper flakes<br><br>
+            2 mL (½ tsp.) salt<br><br>
+            2 2 mL (½ tsp.) pepper<br><br>
+            2 cloves garlic, chopped<br><br>
+          </h3>
+          <h2>PICANHA - RUMP STEAK</h2><br><br>
+          <h3>300 g (⅔ lb.) picanha<br><br>
+            7 mL (1½ tsp.) coarse salt<br><br>
+            5 mL (1 tsp.) olive oil<br><br>
+          </h3>
+        <h1><ion-text color="tertiary">Instructions</ion-text></h1><br>
+        <h3>1. IPour orange juice into a large saucepan of boiling water, add the garlic, salt, and pork spareribs, and cook for an hour at a gentle simmer. <br><br>
+            2. In the meantime, mix together the sparerib dry marinade ingredients together in a small bowl. When ribs have finished cooking, rub them with dry marinade. Let them sit in fridge for at least 3 hours or overnight.<br><br>
+            3. Mix all the chicken dry marinade ingredients together in a bowl<br><br>
+            4. Rub chicken with dry marinade and let sit in fridge for at least 3 hours or overnight.<br><br>
+            5. Preheat barbecue to high. Grease the barbecue grill.<br><br>
+            6. Grill half-chicken directly on barbecue grill until nicely browned. Next, turn off one one burner and continue cooking chicken over indirect heat with the lid closed for about 35 minutes or until internal temperature reaches 82°C (180°F).<br><br>
+            7. Rub beef with 5 mL (1 tsp.) coarse salt. Grill for about 5 to 6 minutes, turning them over at the halfway point, for rare doneness. When cooked, add remaining salt and brush with olive oil.<br><br>
+            8. Grill spareribs on barbecue for about 5 to 6 minutes, turning them over at the halfway point, to brown meat. <br><br>
+          </h3>
+    </ion-text>
+    <!-- All links to connect the 4 food pages together. -->
+    <li [routerLink]="['/caipirinha']"><ion-button>Caipirinha</ion-button></li>
+    <li [routerLink]="['/feijoada']"><ion-button>Feijoada</ion-button></li>
+    <li [routerLink]="['/pastel']"><ion-button>Pastel</ion-button></li>
+    <li [routerLink]="['/mood']"><ion-button>Favourite Food</ion-button></li>
+</ion-content>

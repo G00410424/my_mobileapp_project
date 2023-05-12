@@ -1,7 +1,8 @@
+<!-- Home page with all the links. -->
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Brazilian Food App
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,11 +10,22 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="small">Brazilian food app</ion-title>
     </ion-toolbar>
   </ion-header>
-
+  <br>
   <div id="container">
- <h3>Welcome to Mobile Apps Starter project 2023</h3>
   </div>
+  <!-- All links as buttons. -->
+  <li [routerLink]="['/caipirinha']"><ion-button>Caipirinha</ion-button></li>
+  <li [routerLink]="['/churrasco']"><ion-button>Churrasco</ion-button></li>
+  <li [routerLink]="['/feijoada']"><ion-button>Feijoada</ion-button></li>
+  <li [routerLink]="['/pastel']"><ion-button>Pastel</ion-button></li>
+  <li [routerLink]="['/mood']"><ion-button>Favourite Food</ion-button></li>
+  <li [routerLink]="['/movie']"><ion-button>Movies</ion-button></li>
+  <li [routerLink]="['/location']"><ion-button>Location</ion-button></li>
+  <li [routerLink]="['/web']"><ion-button>Web Browser</ion-button></li>
+
+  <!-- Brazilian flag image -->
+  <ion-img src="https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg"></ion-img>
 </ion-content>

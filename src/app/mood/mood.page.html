@@ -1,0 +1,27 @@
+<!-- Mood page from labs. Instead of mood, it saves the user favourite recipe from the 4 options. -->
+<ion-content>
+  <br><br><ion-title>Favourite food</ion-title>
+  <ion-back-button slot="start"></ion-back-button>
+  <ion-list>
+  <ion-radio-group [(ngModel)]="myStatus">
+  <ion-item>
+  <ion-label>Caipirinha</ion-label>
+  <ion-radio value="Caipirinha"></ion-radio>
+  </ion-item>
+  <ion-item>
+  <ion-label>Churrasco</ion-label>
+  <ion-radio value="Churrasco"></ion-radio>
+  </ion-item>
+  <ion-item>
+  <ion-label>Feijoada</ion-label>
+  <ion-radio value="Feijoada" ></ion-radio>
+  </ion-item>
+  <ion-item>
+  <ion-label>Pastel</ion-label>
+  <ion-radio value="Pastel" ></ion-radio>
+  </ion-item>
+  </ion-radio-group>
+  </ion-list>
+  <ion-button (click)="saveStatus()">Save</ion-button><br><br>
+  <h1><ion-text color="tertiary">I LOVE {{myStatus}}</ion-text></h1><br>
+  </ion-content>
